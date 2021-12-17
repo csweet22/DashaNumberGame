@@ -146,6 +146,14 @@
           "synonyms": ["45", "fourty five"]
         },
         {
+          "value": "25",
+          "synonyms": ["25", "twenty five"]
+        },
+        {
+          "value": "24",
+          "synonyms": ["24", "twenty four"]
+        },
+        {
           "value": "82",
           "synonyms": ["82", "eighty two"]
         },

@@ -21,7 +21,7 @@ start node root
     {
         #connectSafe($phone); // connecting to the phone number which is specified in index.js that it can also be in-terminal text chat
         #waitForSpeech(1000); // give the person a second to start speaking 
-        #sayText("Welcome to the number guessing game! I choose a number, you try to guess it.");
+        #sayText("Welcome to the number guessing game! I have chosen a number between 0 and 99 (both inclusive). Try to guess it!");
 
         set $targetNum = external getRandNum($max);
 
@@ -37,7 +37,7 @@ node startingNode
 {
     do //actions executed in this node 
     {
-        #sayText("I choose a number, you try to guess it.");
+        #sayText("I have chosen a number between 0 and 99 (both inclusive). Try to guess it!");
         set $targetNum = external getRandNum($max);
         wait *;
     }
