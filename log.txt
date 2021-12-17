@@ -1,0 +1,111 @@
+####################################################################################################
+human: 
+ai: Welcome to the number guessing game! I choose a number, you try to guess it.
+[
+  {
+    "type": "Data",
+    "skill": "common-numbers",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "factType": "numberword",
+    "data": {
+      "value": "50"
+    }
+  },
+  {
+    "type": "Data",
+    "skill": "d7587f739d2e8857273fa71b42ff3a4e:v2",
+    "weight": 0.50701,
+    "likelihood": 1,
+    "location": {
+      "start": 0,
+      "end": 2
+    },
+    "factType": "number",
+    "data": {
+      "value": "50"
+    }
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: 50
+ai: Guess lower!
+[
+  {
+    "type": "Data",
+    "skill": "common-numbers",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "factType": "numberword",
+    "data": {
+      "value": "25"
+    }
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: 25
+ai: Sorry, could you say it again?
+[
+  {
+    "type": "Data",
+    "skill": "common-numbers",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "factType": "numberword",
+    "data": {
+      "value": "25"
+    }
+  },
+  {
+    "type": "Intent",
+    "skill": "sentiment",
+    "weight": -1,
+    "likelihood": -1,
+    "location": {
+      "start": 0,
+      "end": 0
+    },
+    "intent": null,
+    "state": "neutral",
+    "sentenceType": "statement"
+  }
+]
+human: 25
+human: now
+ai: I'm sorry, let me transfer you to another agent. Please stand by!
