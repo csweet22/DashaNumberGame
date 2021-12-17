@@ -7,7 +7,7 @@ Please join us in our [Developer Community](https://community.dasha.ai).
 1. Clone the repo and install the dependencies:
 
 ```sh
-git clone https://github.com/dasha-samples/blank-slate-app
+git clone https://github.com/csweet22/DashaNumberGame
 cd blank-slate-app
 npm install
 ```
