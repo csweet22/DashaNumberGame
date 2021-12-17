@@ -8,7 +8,7 @@ Please join us in our [Developer Community](https://community.dasha.ai).
 
 ```sh
 git clone https://github.com/csweet22/DashaNumberGame
-cd blank-slate-app
+cd DashaNumberGame
 npm install
 ```
 
