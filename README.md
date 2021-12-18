@@ -28,4 +28,4 @@ npm start chat
 npm start <your phone number>
 ```
 
-The phone number should be in the international format without the `+` (e.g. `12223334455`)
+The phone number should be in the international format with the `+` (e.g. `+12223334455`)
